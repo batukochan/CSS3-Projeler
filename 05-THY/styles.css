@@ -183,8 +183,8 @@ ul {
     height: 100vh;
     margin:0;
     padding:0;
+   
 }
-
 .bolum2 .yazi h2{
     position: absolute;
     width: 100%;
@@ -195,40 +195,17 @@ ul {
     font-weight: lighter;
 }
 
+.link{
+   width: 750px;
+   height: 75px;
+}
 
-.bolum2  a:nth-child(1){
-    padding: 25px 35px;
-    position: absolute;
-    background-color: RED;
-    border-radius: 15px;
-    font-size: smaller;
-    top: 200px;  
-    left:550px ;
-    color: white;
-    text-decoration: none;
+.link .kutu{
+    width: 250px;
+    height: 75px;
+    border:1px solid brown;
+    flex-wrap: no-wrap;
 }
-.bolum2  a:nth-child(2){
-    padding: 25px 35px;
-    position: absolute;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 15px;
-    font-size: smaller;
-    top: 200px;  
-    left:790px ;
-    color: white;
-    text-decoration: none;
-}
-.bolum2  a:nth-child(3){
-    padding: 25px 35px;
-    position: absolute;
-    background-color: RED;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 15px;
-    font-size: smaller;
-    top: 200px;  
-    left:1070px ;
-    color: white;
-    text-decoration: none;
-}
+
+ 
+
