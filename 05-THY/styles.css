@@ -177,35 +177,33 @@ ul {
 
 .bolum2{
     background-image: url(./Images/Holiday.jpg);
-    position: relative;
     background-size: cover;
+    display: flex;
     width: 100%;
     height: 100vh;
     margin:0;
     padding:0;
-   
+    flex-wrap:wrap ;
 }
-.bolum2 .yazi h2{
-    position: absolute;
+.bolum2 .yazi{
     width: 100%;
-    top: 5%;
+    height: 120px;
     text-align: center;
     color: white;
     font-size: x-large;
     font-weight: lighter;
+    align-content: center;
+
 }
 
 .link{
-   width: 750px;
-   height: 75px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
 }
 
-.link .kutu{
-    width: 250px;
-    height: 75px;
-    border:1px solid brown;
-    flex-wrap: no-wrap;
-}
 
- 
+
+
 
