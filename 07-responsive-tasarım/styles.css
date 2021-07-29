@@ -86,12 +86,12 @@ h2.altbaslik{
     font-size: 1em;
     color: white;
     padding: 15px 40px;
-    background:#61c1e1  ;
+    background: #7fa4c3 ;
     border-radius: 50px;
 }
 
 .buton a:hover{
-    background:rgb(126, 220, 251) ;
+    background: #c492a1 ;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -99,3 +99,352 @@ h2.altbaslik{
     border: 2px solid white;
 }
 
+section.bolum1{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.bolum1 h2{
+    color:#474747 ;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1em ;
+    margin-bottom: 0.5em;
+}
+
+.bolum1 h2+p{
+    font-size: 1.2em;
+    color: #858585;
+    margin-bottom: 1.8em;
+}
+
+.container{
+   max-width: 1000px;
+   margin: 0 auto ;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap ;
+}
+
+.bolum1 .kutu{
+    flex-basis:300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background: #fff;
+    text-align: center;
+    padding: 20px o ;
+    margin-right: 20px ;
+    align-self: flex-start ;
+}
+
+.bolum1 .kutu:last-child{
+    margin-right: 0;
+}
+
+.bolum1 .kutu i{
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+}
+
+.bolum1 .kutu i.font1{
+    background: #7fa4c3;
+}
+.bolum1 .kutu i.font2{
+    background: #c492a1;
+}
+.bolum1 .kutu i.font3{
+    background: #797084;
+}
+
+.bolum1 .kutu h3{
+    margin: 20px 0;
+    color: #858585;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.bolum1 .kutu p{
+    color: #858585;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0 30px 20px 30px;
+    line-height: 1.3em ;
+}
+
+section.bolum2{
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #d1d1d1;
+    
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+    display: block;
+}
+
+.bolum2 h2{
+    font-size: 2.5em;
+    margin-bottom: 20px ;
+    color: #474747;
+    font-weight: 900;
+}
+
+.bolum2 h2+p{
+    font-size: 1.3em;
+    margin-bottom: 80px;
+    color: #858585;
+    font-weight: 100;
+}
+
+.bolum2 .kisiler{
+    width: 100%;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bolum2 .kisi{
+    flex-basis: 220px;
+    margin: 50px 10px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.bolum2 .kisi img{
+    float: left;
+    width: 100px;
+    border-radius: 50% ;
+    margin: 5px 10px ;
+}
+
+.bolum2 .kisi h4{
+    margin-top: 25px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.bolum2 .kisi p{
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.bolum2 article{
+    margin: 50px auto ;
+    width: 7%0;
+}
+
+.bolum2 article p{
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #444;
+}
+
+.bolum2 ul li a{
+    background: #7fa4c3 ;
+    border-radius: 30px ;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400 ;
+    padding: 1em 2em;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bolum2 ul li a:hover{
+    background: #c492a1;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.bolum2 ul li a:active{
+    border: 2px solid gray;
+}
+
+.bolum3{
+    width: 100%;
+    display: block;
+    background: #7fa4c3;
+    padding: 50px 0 10px;
+    text-align:center;
+}
+
+.bolum3 h2{
+    font-size: 3em;
+    color:#fff
+}
+
+.bolum3 h2+p{
+    font-size: 1.7em;
+    color: #d1d1d1;
+    line-height: 2.5em;
+    letter-spacing: 2px;
+}
+
+.bolum3 .container .form{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.bolum3 .container .form input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px ;
+    color: #444;
+    font-size: 1em;
+}
+.bolum3 .container .form input[type=text]:active{
+    box-sizing: content-box ;
+    border: white;
+}
+.bolum3 .container .form input[type=mail]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px ;
+    color: #444;
+    font-size: 1em;
+}
+.bolum3 .container .form input[type=mail]:active{
+    box-sizing: content-box ;
+    border: white;
+}
+.bolum3 .container .form textarea{
+    width: 430px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.bolum3 .container .form textarea:active{
+    box-sizing: content-box ;
+    border: white;
+}
+
+.bolum3 .container .form input[type=submit]{
+    margin-top: 15px;
+    font-size: 1.1em;
+    padding: 15px 50px ;
+    border-radius: 50px;
+    color: #fff;
+    background: #c492a1 ;
+    border: none;
+    cursor: pointer;
+}
+
+.bolum3 .container .form input[type=submit]:hover{
+    background: #797084;
+    transition: background 0.2s ease-in-out ;
+}
+.bolum3 .container .form input[type=submit]:active{
+    border:2px solid white;
+}
+
+footer{
+    width:100%;
+    background: #c492a1 ;
+    padding: 30px 0;
+}
+
+footer .container{
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+}
+
+footer .footerkutu{
+    margin-left: 20px;
+    width: 200px;
+}
+
+footer h3{
+    color: #fff;
+    font-size: 1.1em ;
+    margin-bottom: 20px;
+}
+
+footer .container ul{
+    display: block;
+    width: 100%;
+    float:left;
+    margin-bottom:30px;
+}
+footer .container ul a{
+    color: #cdced0;
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+footer .container ul a:hover{
+    text-decoration: underline;
+}
+
+.socialmedia{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer .lisans{
+    width: 100%;
+    margin: 20px auto;
+}
+
+footer .lisans p{
+    
+    color: #858585;
+    margin-top:15px ;
+  
+    float: left;
+}
+
+footer .icons{
+    float: right;
+}
+
+footer .icons i{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
+
+.temizle{
+    clear: both;
+}
+
+footer .icons i.instagram{
+    background: white;
+    color: pink;
+    border: 2px solid #858585;
+    box-shadow: 1px 1px 3px 2px #858585;
+
+}
+footer .icons i.twitter{
+    background: white;
+    color: pink;
+    border: 2px solid #858585;
+    box-shadow: 1px 1px 3px 2px #858585;
+
+
+}
+footer .icons i.linkedin{
+    background: white;
+    color: pink;
+    border: 2px solid #858585;
+    box-shadow: 1px 1px 3px 2px #858585;
+}
