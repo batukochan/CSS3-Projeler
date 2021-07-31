@@ -120,7 +120,7 @@ section.bolum1{
     margin-bottom: 1.8em;
 }
 
-.container{
+.bolum1 .container{
    max-width: 1000px;
    margin: 0 auto ;
    display: flex;
@@ -359,11 +359,15 @@ footer{
 }
 
 footer .container{
+    display: flex;
+    flex-wrap: wrap ;    
     margin-top: 40px;
     border-bottom: 1px solid white;
+    justify-content: space-around;
 }
 
 footer .footerkutu{
+    
     margin-left: 20px;
     width: 200px;
 }
@@ -448,3 +452,56 @@ footer .icons i.linkedin{
     border: 2px solid #858585;
     box-shadow: 1px 1px 3px 2px #858585;
 }
+
+@media screen and (max-width:950px){
+    .banner{
+        height: 60vh;
+    }
+    h2.altbaslik{
+        font-size: 2em;
+    }
+    .banner .yazi p{
+        font-size: 1em;
+    }
+    .buton a{
+        padding: 10px 30px;
+        font-size: 0.7em;
+        border-radius: 35px;
+    }
+    .bolum1 .kutu{
+        flex-basis:100%;
+    }
+    .bolum2 .kisi{
+        flex-basis: 40%;
+    }
+    footer .footerkutu{
+        flex-basis: 40%;
+    }
+    footer .socialmedia{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .lisans{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bolum3 .container .form{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:400px){
+    .bolum3 .container .form textarea{
+        width: 220px;
+        height: 100px;
+    }
+}
+
+
+
+
+
