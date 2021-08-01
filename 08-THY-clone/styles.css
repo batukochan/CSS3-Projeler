@@ -1,0 +1,142 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('subset-MuseoSans-100.woff2') format('woff2'),
+        url('subset-MuseoSans-100.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('subset-MuseoSans-300.woff2') format('woff2'),
+        url('subset-MuseoSans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('subset-MuseoSans-500.woff2') format('woff2'),
+        url('subset-MuseoSans-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('subset-MuseoSans-700.woff2') format('woff2'),
+        url('subset-MuseoSans-700.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.container .menu-top{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    font-family: 'Museo Sans 300';
+    justify-content: flex-end;
+    background-color:#2b3947;
+}
+
+.container .menu-top ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .menu-top ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px dotted white ;
+}
+
+.container .menu-top ul li:last-child a{
+    border-right: none;
+    padding: 0;
+    margin-right: 5px ;
+}
+
+.icons{
+    color: white;
+    padding-right: 4px;
+    width: 11px;
+}
+
+.container .menu-bottom{
+    font-family: 'Museo Sans 700';
+    display: flex;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#232b38;
+}
+
+.container .menu-bottom img{
+    width: 217px;
+    padding: 13px 25px 12px 24px;
+    margin-left: -15px;
+}
+
+.container .menu-bottom ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .menu-bottom ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px dotted white ;
+}
+
+.login{
+    width: 108px ;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 18px;
+    display: inline-block; 
+    padding: 10px 1px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin:12px 8px 12px 5px ;
+}
+
+
+
+@media screen and (max-width:750px){
+    .container .menu-top ul li:nth-child(3n+1){
+        display: none;
+    }
+    .container .menu-bottom ul li:not(:nth-child(4)) {
+        display: none ;
+    }
+}
