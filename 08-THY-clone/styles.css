@@ -68,7 +68,18 @@
     text-decoration: none;
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 2px dotted white ;
+    border-right: 1px dotted white ;
+}
+
+.container .menu-top ul li a:hover{
+    color: gray;
+    transition: 0.2s ease-in-out;
+}
+.container .menu-top ul li a:active{
+    border-right: none;
+    outline: 1px solid #4285f4;
+    transition: 0.2s ease-in-out;
+    
 }
 
 .container .menu-top ul li:last-child a{
@@ -83,56 +94,161 @@
     width: 11px;
 }
 
-.container .menu-bottom{
-    font-family: 'Museo Sans 700';
+header .menu-bottom{
     display: flex;
     width: 100%;
     height: 60px;
-    font-size: 14px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color:#232b38;
+    justify-content: space-between;
+    background-color: #232b38;
 }
-
-.container .menu-bottom img{
+header .menu-bottom .logo img{
     width: 217px;
-    padding: 13px 25px 12px 24px;
+    height: 40px;
+    padding: 10px 25px 10px 24px;
     margin-left: -15px;
 }
 
-.container .menu-bottom ul{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+header .menu-bottom ul{
+    font-family: 'Museo Sans 700';
+    font-size: 16px;
+    position: absolute;
+    float: right ;
+    right: 10px;
+    
 }
 
-.container .menu-bottom ul li a{
+header .menu-bottom ul li{
+    box-sizing: border-box;
+    padding: 20.5px 0px 20.5px 10px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+header .menu-bottom ul li a{
     color: white;
     text-decoration: none;
-    margin-right: 10px;
     padding-right: 10px;
-    border-right: 2px dotted white ;
+    border-right: 1px dotted white;
+}
+
+header .menu-bottom ul li:hover{
+    background-color: rgba(0, 0, 0, 0.246) ;
+    border-bottom: 2px solid red;
+}
+header .menu-bottom ul li:active{
+    outline: 3px solid #4285f4;
+    transition: 0.2s ease-in; 
+    box-sizing: border-box;
 }
 
 .login{
-    width: 108px ;
-    box-sizing: border-box;
     border: 1px solid white;
-    border-radius: 18px;
-    display: inline-block; 
+    box-sizing: border-box;
+    border-radius: 25px;
     padding: 10px 1px;
+    float: left;
+    position:relative;
+    top: 10px;
+    left: 10px;
 }
 
 .login a{
-    text-decoration: none;
     color: white;
-    text-align: left;
-    margin:12px 8px 12px 5px ;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.login .icons{
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.login:hover{
+    background-color: rgba(255, 255, 255, 0.657) ;
+}
+.login:active{
+    border: 2px solid #4285f4;
+    transition: 0.2s ease-in-out;
+}
+
+.mainBlock .block{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.mainBlock .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between ;
+    background-image: url(./images/background.jpg);
+    background-size: cover ;
+}
+
+.mainBlock .container .yazi{
+    padding-top: 20px;
+    font-family: 'Museo Sans 100';
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.mainBlock .container .islemler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 60px;
+}
+
+.mainBlock .container .islemler .islem2,.islem3{
+    padding: 15px 20px;
+    margin: 0px 3px;
+    box-sizing: border-box;
+    border:1px solid white ;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: white;
+    font-family: 'Museo Sans 300';
+    font-size: 15px ;
+}
+
+.mainBlock .container .islemler .islemozel:hover{
+    background: rgba(255, 255, 255, 0.264);
+    transition: 0.2s ease-in-out;
+}
+
+.mainBlock .container .islemler .islem1{
+    padding: 16px 20px;
+    margin: 0px 3px;
+    border-radius: 3px;
+    background-color: #e81932;
+    color: white;
+    font-family: 'Museo Sans 300';
+    font-size: 15px ;
+}
+
+.travel .background{
+    width: 800px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.397);
 }
 
 
+.mainBlock .container .travel{
+    flex-basis: 150px;
+}
 
-@media screen and (max-width:750px){
+.mainBlock .container .mainBlockFooter{
+    flex-basis: 100px;
+}
+
+@media screen and (max-width:760px){
     .container .menu-top ul li:nth-child(3n+1){
         display: none;
     }
