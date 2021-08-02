@@ -131,6 +131,10 @@ header .menu-bottom ul li a{
     border-right: 1px dotted white;
 }
 
+header .menu-bottom ul li:nth-last-child(2) a{
+    border: none;
+}
+
 header .menu-bottom ul li:hover{
     background-color: rgba(0, 0, 0, 0.246) ;
     border-bottom: 2px solid red;
@@ -140,6 +144,11 @@ header .menu-bottom ul li:active{
     transition: 0.2s ease-in; 
     box-sizing: border-box;
 }
+
+header .menu-bottom ul li:active a{
+    border: none;
+}
+
 
 .login{
     border: 1px solid white;
