@@ -4,9 +4,93 @@
 }
 
 .anaDiv{
-    width:1000px;
-    height: 750px;
+    width:99%;
+    height: 700px;
     margin: 10px auto;
     border: 1px solid black;
-    
+    background:#11324D ;
+
 }
+
+.oyunAlanı{
+    width:1300px;
+    height: 650px;
+    margin: 25px auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.oyunAlanı .adamAsmaca{
+    flex : 1;
+   background: #6B7AA1;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.oyunAlanı .oyun{
+    flex : 1;
+    background: #C1CFC0;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.anaDiv .oyunAlanı .adamAsmaca img{
+    width: 650px;
+    height: 650px;
+}
+
+.anaDiv .oyunAlanı .oyun{
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.anaDiv .oyunAlanı .oyun .kutu{
+    width: 400px;
+    height: 150px;
+    background:#E7E0C9 ;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.anaDiv .oyunAlanı .oyun .yazi{
+    color:#11324D  ;
+    line-height: 150px ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.anaDiv .oyunAlanı .oyun .puan:after{
+    content: " PUAN";
+}
+
+.anaDiv .oyunAlanı .oyun .tahmin input{
+    width: 348px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid #11324D;
+    background:#E7E0C9 ;
+    color:#11324D  ;
+}
+.anaDiv .oyunAlanı .oyun .btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anaDiv .oyunAlanı .oyun .btn .btns input{
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 2px;
+}
+
+
+
+
+
+
