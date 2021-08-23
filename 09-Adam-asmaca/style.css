@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.anaDiv {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #7dbbf1;
+}
+
+.oyunAlani {
+  display: flex;
+  width: 1350px;
+  height: 700px;
+  background-color: #fff;
+  border: 15px solid #e79111;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.oyunAlani .adamAsmaca {
+  width: 650px;
+  height: 650px;
+}
+
+.oyunAlani .adamAsmaca img {
+  width: 650px;
+  height: 650px;
+}
+
+.oyunAlani .oyun {
+  width: 650px;
+  height: 650px;
+  margin-top: 25px;
+}
+
+.oyunAlani .oyun .puan {
+  width: 650px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.oyunAlani .oyun .tahmin {
+  display: flex;
+  align-items: center;
+  width: 650px;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.oyunAlani .oyun .tahmin .klm {
+  display: flex;
+  width: 650px;
+  justify-content: center;
+  align-items: center;
+}
+
+.oyunAlani .oyun .tahmin .klm input {
+  line-height: 100px;
+  width: 600px;
+  border: none;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.oyunAlani .oyun .tahmin .klm input:disabled {
+  background: #fff;
+  color: #000;
+}
+
+.oyunAlani .oyun .tahmin .thmn {
+  display: flex;
+  width: 650px;
+  justify-content: center;
+  align-items: center;
+}
+
+.oyunAlani .oyun .tahmin .thmn input {
+  line-height: 100px;
+  width: 300px;
+  border: none;
+  font-size: 80px;
+  text-align: center;
+  border: 1px solid black;
+  color: transparent;
+  text-shadow: 0 0 0 #000000;
+}
+
+.oyunAlani .oyun .tahmin .thmn input:focus {
+  outline: none;
+}
+
+.oyunAlani .oyun .tahmin .thmn button {
+  line-height: 100px;
+  width: 300px;
+  height: 100% !important;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.oyunAlani .oyun .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 200px;
+}
+
+.oyunAlani .oyun button {
+  width: 200px;
+  height: 75px;
+  font-size: 50px;
+  background-color: #e79111;
+}
+
+.oyunAlani .oyun button:hover {
+  cursor: pointer;
+  background-color: #ffb950;
+  color: #4094df;
+  transition: all 0.5s;
+}
+
+.oyunAlani .oyun .btn .baslat {
+  padding-right: 25px;
+}

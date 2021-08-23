@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adam Asmaca</title>
+    
+  </head>
+  <body>
+    <div class="anaDiv">
+      <div class="oyunAlani">
+        <div class="adamAsmaca">
+          <img src="images/image0.png" alt="" />
+        </div>
+        <div class="oyun">
+          <div class="tahmin">
+            <div class="klm">
+              <input id="kelime" type="text" value="" disabled />
+            </div>
+
+            <div class="thmn">
+              <input id="tahmin" type="text" value="" maxlength="1" />
+              <button id="guessBtn" onclick="guess()">Şansını Dene!</button>
+            </div>
+          </div>
+
+          <div class="btn">
+            <div class="baslat">
+              <button onclick="start()">Başla!</button>
+            </div>
+            <div class="sifirla">
+              <button onclick="window.location.reload();">Sıfırla</button>
+              <!--Basınca sayfayı yeniler-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
